@@ -1,0 +1,249 @@
+:root, body {
+    width: 100%;
+    height: 100%;
+}
+body{ 
+    background-image: url("../IMAGES/background4.jpg");
+}
+.vlleft{
+    border-left: 5cm solid darkgoldenrod;
+    height: 100%;
+    float:left;
+    opacity: 70%;
+}
+.vlleft>.search{
+    height: 6%;
+    position: absolute;
+    left: 1%;
+    margin-left: 5px;
+    top: 3%;
+    transition: 1s;
+}
+.search:hover{
+    height: 9%;
+    left: 5px;
+}
+.homeicon{
+    height: 6%;
+    position: absolute;
+    left:1%;
+    top: 90%;
+    margin-left: 5px;
+    transition: 1s;
+}
+.homeicon:hover{
+    height: 10%;
+    left: 0%;
+}
+.stories-section {
+    float: left;
+     width: 45%;
+}
+#navigation {
+    text-align:left;
+    font-size: 4em;
+    text-transform:capitalize;    
+     padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left:7em;
+    
+}
+#navigation > a {
+    margin-left: 2%;
+    margin-right: 2%;  
+    color: darkgoldenrod;
+}
+#navigation > a:hover {
+     border-bottom:solid;
+    border-bottom-color: darkgoldenrod;
+    border-bottom-width: 0.15em;
+    text-decoration:overline;
+}
+#search>input{
+    width: 16%;
+    margin-left: 75%;
+    border: none;
+    border-bottom: 4px solid darkgoldenrod;
+    border-radius: 2cm;
+    font-size: 30px;
+    background-color:lightgoldenrodyellow ;
+    background-image:url("../DIT3.1C_JULIAN_VELLA/IMAGES/searchs.png");
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+.main-story>h3,h1,p,img{
+    color: darkgoldenrod;
+    margin-left: 2%;
+}
+.main-story>h3{
+    font-size: 2em;
+    font-weight: 300;
+}
+.main-story>h1{
+    font-size: 4em;
+}
+.main-story>img{
+    float: left;
+    height: 25cm;
+    width: 50%;
+    border-radius: 5cm;
+    border:solid 5px darkgoldenrod;
+    margin-right: 1%;
+}
+#toppar{
+    margin-top: 10%;
+}
+.main-story>p{
+    margin-top: 2%;
+    font-size:3em ;
+    margin-right: 4%;
+}
+
+.main-story>hr{
+    border-width: 1em;
+    border-color: darkgoldenrod;
+    border-radius: 5cm;
+    margin-left:10%;
+    margin-right: 10%;
+}
+.tag{
+    color: darkgoldenrod;
+    font-size: 2em;
+    margin-left: 45%;
+    
+}
+.tag>ul{ 
+    list-style-type: square; 
+    font-size: 1.5em;
+}
+.direction{
+    font-size: 3em;
+    color: darkgoldenrod;
+    text-align: center;
+}
+.direction>a{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.direction>a:hover{
+    border-bottom:solid;
+    border-bottom-color: darkgoldenrod;
+    border-bottom-width: 0.15em;
+    text-decoration:overline;
+}
+.vl{
+    position: absolute;
+    border-left: 20px solid darkgoldenrod;
+    height: 50cm;
+    top: 3%;
+    left: 49%;
+    opacity: 80%;
+}
+.logo>img{
+    position: absolute;
+    left: 87%;
+    top:2cm;
+    height: 5cm;
+    width: 5cm;
+    border-radius: 1cm;
+}
+.logo>#top{
+    position: absolute;
+    left: 88% ;
+    top: 15px;
+    font-size:2em ;
+    color: darkgoldenrod;
+}
+.logo>#bottom{
+    position: absolute;
+    left: 91% ;
+    top: 235px;
+    font-size:2em ;
+    color: darkgoldenrod;
+}
+#s-right{
+    float: right;
+    width: 50%;
+}
+.title{
+    font-size: 7em;
+    margin-top: 10%;
+    border-bottom: 5px solid darkgoldenrod;
+    width: 71%;
+}
+.light{
+    position: absolute;
+    height: 6cm;
+    transition:2s;
+    padding-left:  20%; ;
+}
+.light:hover{
+    height: 10cm;
+}
+.form>h2{
+    color: darkgoldenrod;
+    font-size: 7em;
+    padding-top: 15%;
+    padding-left: 5%;
+}
+.form>form{
+    color: darkgoldenrod;
+    margin-left: 5%;
+    border: 10px solid darkgoldenrod;
+    margin-right: 20%;
+}
+.form-box>#Story-Title{
+    border: 2px solid darkgoldenrod;
+    margin-top: 4%;
+    margin-left: 2%;
+    width: 96%;
+    height: 17mm;
+    font-size:3em ;
+}
+.form-box>#Your-Story{
+    border: 2px solid darkgoldenrod;
+    margin-top: 4%;
+    margin-left: 2%;
+    width: 96%;
+    height: 7cm;
+    font-size:3em ;
+}
+.form-box>label{
+    font-size: 3em;
+    margin-left: 2%;
+    padding-right: 53%;
+    border:5px solid darkgoldenrod;
+    background-color:lightgoldenrodyellow ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.form-box>#button{
+    margin-left: 40%;
+    width: 15%;
+    height: 2cm;
+    font-size: 2em;
+    color: darkgoldenrod;
+    margin-bottom: 3%;
+    margin-top: 3%;
+
+}
+.footer {
+    font-size: 7mm;;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgoldenrod;
+    color: white;
+    text-align: center;
+    opacity: 80%;
+}
+.footer>em{
+    padding-right: 4%;
+}
+  
+
+
+
+
+       
